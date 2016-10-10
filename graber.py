@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urlparse, urljoin
 
-DEBUG = True
+DEBUG = False
 
 if DEBUG is True:
-    SKIP_INFO = False
+    SKIP_INFO = True
 
 
 def skip_info(info_string):
