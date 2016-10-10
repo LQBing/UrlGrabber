@@ -4,6 +4,7 @@ import requests
 from urllib.parse import urlparse, urljoin
 
 DEBUG = False
+SKIP_INFO = False
 
 if DEBUG is True:
     SKIP_INFO = True
