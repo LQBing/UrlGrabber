@@ -1,7 +1,7 @@
 # coding:utf-8
 from bs4 import BeautifulSoup
 import requests
-from urllib.parse import urlparse, urljoin, urlunparse
+from urllib.parse import urlparse, urljoin
 
 DEBUG = True
 
